@@ -13,7 +13,7 @@ body {
 /*Utilities*/
 
 .flexin {display: flex;
-justify-content: space-evenly;}
+justify-content: center;}
 
 .debug {
     border: 1px dashed black;
@@ -69,12 +69,13 @@ font-size: 12px;
 z-index: 1;}
 
 #logo {
-    height: 40px;
-    background-size: 15px;
+    height: 25px;
+    width: auto;
 }
 
 article {
-    margin-top: 70px;
+    
+    margin: 50px 10px 0 10px;
     height: 500px;
     width: 350px;
     background-size: contain;
@@ -90,10 +91,9 @@ background-color: rgb(26,26,26)
 
 }
 
-.first-row {
+.row {
     height: 100%;
-    margin: 0 auto;
-
+    margin: 0 0 0 0;
 }
 
 .span-red {position: absolute;
