@@ -1,0 +1,38 @@
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+
+/*Utilities*/
+
+.container {max-width: 1800px;}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*Colors
+orange nav bar rgb(255,104,0)
+black footer rgb(26,26,26)
+*/
+
+nav {height: 40px;
+background-color: blue;}
+
+#logo {}
+
+
+
+
+
+
+
+
