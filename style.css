@@ -78,7 +78,7 @@ font-weight: bold ;}
 
 article {
     
-    margin: 50px 10px 0 10px;
+    margin: 50px 10px 20px 10px;
     height: 500px;
     width: 350px;
     background-size: contain;
@@ -122,4 +122,42 @@ line-height: 140px;
 line-height: 22px;
 font-size: 14px;
 padding:0 180px}
+
+.marca{
+position: absolute;
+left:0;
+top:100%;
+font-size: 12px;}
+
+.prodotto{
+position: absolute;
+left:0;
+top:103%;}
+
+.prezzo{
+position: absolute;
+left:0;
+top:107%;
+color:red}
+
+del {color: black;}
+
+
+
+:hover.cuoricino {
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 90%;
+    background-color: white;
+    color: red;}
+
+.cuoricino {
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 90%;
+    background-color: white;
+}
+
 
