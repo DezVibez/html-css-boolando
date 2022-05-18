@@ -65,7 +65,8 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 position: fixed;
-font-size: 12px;}
+font-size: 12px;
+z-index: 1;}
 
 #logo {
     height: 40px;
@@ -78,6 +79,7 @@ article {
     width: 350px;
     background-size: contain;
     display: inline-block;
+    position: relative;
     
 }
 
@@ -88,11 +90,28 @@ background-color: rgb(26,26,26)
 
 }
 
-.row {background-color: black;
+.first-row {
     height: 100%;
     margin: 0 auto;
+
 }
 
+.span-red {position: absolute;
+bottom:40px;
+left:0px;
+background-color: red;
+}
 
+.span-green {position: absolute;
+    bottom:40px;
+    left: 34px;
+    background-color:green;
+    }
+
+.span-last-green {position: absolute;
+    bottom:40px;
+    left: 0px;
+    background-color:green;
+    }
 
 
