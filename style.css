@@ -31,21 +31,21 @@ justify-content: center;}
 
 /*NO HOVER IMAGES*/
 
-.back-groundimg1  {background-image: url(1.webp);}
-.back-groundimg2  {background-image: url(2.webp);}
-.back-groundimg3  {background-image: url(3.webp);}
-.back-groundimg4  {background-image: url(4.webp);}
-.back-groundimg5  {background-image: url(5.webp);}
-.back-groundimg6  {background-image: url(6.webp);}
+.back-groundimg1  {background-image: url(/img/1.webp);}
+.back-groundimg2  {background-image: url(/img/2.webp);}
+.back-groundimg3  {background-image: url(/img/3.webp);}
+.back-groundimg4  {background-image: url(/img/4.webp);}
+.back-groundimg5  {background-image: url(/img/5.webp);}
+.back-groundimg6  {background-image: url(/img/6.webp);}
 
 /* HOVER */
 
-:hover.back-groundimg1  {background-image: url(1b.webp);}
-:hover.back-groundimg2  {background-image: url(2b.webp);}
-:hover.back-groundimg3  {background-image: url(3b.webp);}
-:hover.back-groundimg4  {background-image: url(4b.webp);}
-:hover.back-groundimg5  {background-image: url(5b.webp);}
-:hover.back-groundimg6  {background-image: url(6b.webp);}
+:hover.back-groundimg1  {background-image: url(/img/1b.webp);}
+:hover.back-groundimg2  {background-image: url(/img/2b.webp);}
+:hover.back-groundimg3  {background-image: url(/img/3b.webp);}
+:hover.back-groundimg4  {background-image: url(/img/4b.webp);}
+:hover.back-groundimg5  {background-image: url(/img/5b.webp);}
+:hover.back-groundimg6  {background-image: url(/img/6b.webp);}
 
 /*Colors
 orange nav bar rgb(255,104,0)
